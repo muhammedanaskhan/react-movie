@@ -30,3 +30,13 @@
     cursor: pointer;
 }
 
+.nav__logo_large{
+    margin-top: 10px;
+    position: fixed;
+    object-fit: contain;
+    padding-left: 20px;
+    left: 0;
+    width: 150px;
+    cursor: pointer;
+}
+

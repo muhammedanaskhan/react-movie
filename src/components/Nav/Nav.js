@@ -23,7 +23,7 @@ function Nav() {
         <div className="nav__contents">
           
           {show && <img src='/logo.png' className='nav__logo'/>}
-          {!show && <img src='/logo_black.png' className='nav__logo'/>}    
+          {!show && <img src='/logo_shadow.png' className='nav__logo_large'/>}    
         </div>
     </div>
   )
