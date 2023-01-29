@@ -30,6 +30,24 @@
     cursor: pointer;
 }
 
+.avatar{
+    position: fixed;
+    object-fit: contain;
+    width: 35px;
+    right: 0;
+    margin-top: 7.5px;
+    margin-right: 20px;
+}
+
+.avatar__large{
+    position: fixed;
+    object-fit: contain;
+    width: 50px;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
 .nav__logo_large{
     margin-top: 10px;
     position: fixed;
