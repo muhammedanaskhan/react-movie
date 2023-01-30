@@ -14,6 +14,7 @@ function SignupScreen() {
             passwordRef.current.value
         ).then((authUser) => {
             console.log(authUser)
+            const user = authUser.user
         }).catch((error) => {
             alert(error.message);
         });

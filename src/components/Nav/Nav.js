@@ -24,8 +24,8 @@ function Nav() {
   return (
     <div className={`nav ${show && "nav__black"}`}>
         <div className="nav__contents">
-          {show && <img src='/logo.png' className='nav__logo'/>}
-          {!show && <img src='/logo_shadow.png' className='nav__logo_large'/>}    
+          {show && <img onClick={() => navigate("/")} src='/logo.png' className='nav__logo'/>}
+          {!show && <img onClick={() => navigate("/")} src='/logo_shadow.png' className='nav__logo_large'/>}    
 
           {show && <img onClick={() => navigate("/profile")} src='/avatar.png' className='avatar'/>}
           {!show && <img onClick={() => navigate("/profile")} src='/avatar.png' className='avatar__large'/>}    
